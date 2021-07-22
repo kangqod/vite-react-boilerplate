@@ -6,7 +6,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "prepare": "husky install",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,css,html,json,md,mdx}\"",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,html,json,md,mdx}\"",
     "lint-test": "tsc && prettier --check . && eslint . && stylelint \"**/*.css\""
   },
   "dependencies": {
