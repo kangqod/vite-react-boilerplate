@@ -20,7 +20,8 @@
     "removeComments": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "Components/*": ["./src/components/*"]
     }
   },
   "include": ["./src"]

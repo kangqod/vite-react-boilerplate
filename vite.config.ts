@@ -10,14 +10,15 @@ export default defineConfig({
     open: true
     /*proxy: {
       '/api': {
-        target: `http://localhost:${PORT}`,
+        target: `http://url`,
         changeOrigin: true,
       },
     }*/
   },
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src')
+      '@': resolve(__dirname, './src'),
+      Components: resolve(__dirname, './src/components')
     }
   }
 })
