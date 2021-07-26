@@ -11,6 +11,11 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-nested-ternary": 0, // 삼항 연산자
