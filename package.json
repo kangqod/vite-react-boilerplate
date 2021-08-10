@@ -1,13 +1,13 @@
 {
   "name": "vite-react-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "prepare": "husky install",
-    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,html,json,md,mdx,yml,yaml}\"",
-    "lint": "tsc && eslint . && stylelint \"**/*.css\""
+    "lint": "tsc && eslint .",
+    "format": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -27,10 +27,19 @@
     "lint-staged": "^11.0.1",
     "path": "^0.12.7",
     "prettier": "^2.3.2",
-    "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^22.0.0",
     "typescript": "^4.3.2",
     "vite": "^2.4.3"
-  }
+  },
+  "license": "MIT",
+  "author": "Chad",
+  "homepage": "https://github.com/kangqod/vite-react-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/kangqod/vite-react-boilerplate/issues"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typeScript",
+    "scaffolding"
+  ]
 }
