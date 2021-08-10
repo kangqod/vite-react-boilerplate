@@ -6,7 +6,6 @@
     "moduleResolution": "Node",
     "strict": true,
     "sourceMap": true,
-    "importHelpers": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "types": ["vite/client", "node"],
