@@ -61,7 +61,6 @@ yarn format
 - React 17
 - Typescript
 - eslint
-- stylelint
 - prettier
 - husky
 - lint-staged
